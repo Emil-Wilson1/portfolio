@@ -1,1 +1,9 @@
-<p>header works!</p>
+<router-outlet></router-outlet>
+<header class="pt-8 md:pt-16 pb-16 px-4 md:px-0 flex justify-between">
+  <a href="/"><h1 class="text-base font-mono font-semibold text-slate-950">EW</h1></a>
+  <nav class="flex gap-4">
+    <a class="text-950 text-sm tracking-tighter font-mono font-semibold" routerLink="/info">Information</a>
+    <!-- <a class="text-950 text-sm tracking-tighter font-mono font-semibold" href="/posts">Writing</a> -->
+    <a class="text-950 text-sm tracking-tighter font-mono font-semibold" routerLink="/contact">Contact</a>
+  </nav>
+</header>
